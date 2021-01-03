@@ -112,11 +112,6 @@ body{
 .card:hover:after{
     opacity: 1;
 }
-/* Card href */
-.clickable_cards, .clickable_cards:active, .clickable_cards:visited, .clickable_cards:focus{
-    text-decoration: none;
-    color: black;
-}
 .card h2{
     padding: 20px;
     line-height: 2.0;
