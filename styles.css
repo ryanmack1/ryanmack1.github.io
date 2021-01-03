@@ -113,7 +113,7 @@ body{
     opacity: 1;
 }
 /* Card href */
-.clickable_cards{
+.clickable_cards, .clickable_cards:active, .clickable_cards:visited, .clickable_cards:focus{
     text-decoration: none;
     color: black;
 }
