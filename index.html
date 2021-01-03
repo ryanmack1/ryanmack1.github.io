@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Mackey</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <!-- Animate.CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Desktop Top Navigation -->
+    <div class="header animate__animated animate__fadeIn">
+        <div class="logo">
+            <h1>Ryan Mackey</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="animate__animated animate__bounceIn animate__delay-1s"><a href="#intro">Intro</a></li>
+                <li class="animate__animated animate__bounceIn animate__delay-2s"><a href="#projects">Projects</a></li>
+                <li class="animate__animated animate__bounceIn animate__delay-3s"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <div class="mobilenav header">
+        <i class="material-icons" style="font-size: 38px;">
+            <a href="#intro"> home </a>
+        </i>
+        <i class="material-icons" style="font-size: 38px;">
+            <a href="#projects"> layers </a>
+        </i>
+        <i class="material-icons" style="font-size: 38px;">
+            <a href="#contact"> chat </a>
+        </i>
+    </div>
+    <!-- Dear Reader  -->
+    <div class="intro" id="intro">
+        <div class="intro_img">
+            <img class="responsiveImage animate__animated animate__fadeIn" src="images/ryan.jpg" alt="me">
+            <h2 class="animate__animated animate__fadeIn">Dear <span style="color: rgba(97, 255, 5, 0.931);">Reader</span>, <br><br>
+                Hows it going? Welcome to my portfolio page where I share with you much of my computer science journey. I have a lot to show you: from a React-Native app to a clone instagram and some of my website designs, there is a lot to see! Check out some of my projects below!
+            </h2>
+        </div>   
+    </div>
+    <!-- Portfolio -->
+    <div id="projects"></div>
+    <div class="projectarea">
+        <div class="projectarea_wrapper">
+            <!-- Cards -->
+            <div class="card">
+                <img class="adsonica" src="images/adsonica.png" alt="adsonica">
+                <h2>Adsonica is a digital advertizing platform that gives modern solutions to advertizing. I created responsive new desings for their Sonic Ads.<h2>
+            </div>
+            <div class="card">
+                <img src="images/craft.jpg" alt="craft">
+                <h2>I had a lot of fun putting together a website for craft sushi. Though it never went up as the official website, I am still proud of what became of it.</h2>
+            </div>
+            <div class="card">
+                <img class="insta" src="images/insta.jpg" alt="instagram">
+                <h2>This is a clone of instagram using react js. It has google auth. with firebase in the backend. You are able to post and comment as well.</h2>
+            </div>
+            <div class="card">
+                <img class="headline" src="images/headline2.jpg" alt="headline">
+                <h2>I created an app using React Native with a team of 2 other developers for Headline productions. This utilizes Firebase in the backend and React Native Paper for the front end.</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me -->
+    <div class="contactarea" id="contact">
+        
+    </div>
+</body>
+</html>
