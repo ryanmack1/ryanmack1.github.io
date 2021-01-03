@@ -91,6 +91,7 @@ body{
     background-color: #fff;
     box-shadow: 0 1px 2px rgba(0,0,0,0.15);
     transition: all 0.3s ease-in-out;}
+/* Card Hover in and out */
 .card::after{
     content: "";
     border-radius: 5px;
@@ -110,6 +111,11 @@ body{
 }
 .card:hover:after{
     opacity: 1;
+}
+/* Card href */
+.clickable_cards{
+    text-decoration: none;
+    color: black;
 }
 .card h2{
     padding: 20px;
