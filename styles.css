@@ -201,6 +201,10 @@ body{
     .intro_img{
         margin-top: 80px;
     }
+    .intro h2{
+        margin-top: 0px;
+        font-size: 16px;
+    }
     .header{
         background-color: black;
         z-index: 100;
