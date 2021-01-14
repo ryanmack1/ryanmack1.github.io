@@ -249,4 +249,11 @@ body{
         grid-gap: 2rem;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+    .intro_img h2 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .card h2{
+        font-size: 16px;
+    }
 }
